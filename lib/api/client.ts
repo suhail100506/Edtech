@@ -3,7 +3,7 @@ import { APP_CONFIG } from "../constants";
 
 export const apiClient = axios.create({
   baseURL: APP_CONFIG.defaultApiUrl,
-  timeout: 6000,
+  timeout: 15000,
   headers: {
     "Content-Type": "application/json",
   },
